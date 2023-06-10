@@ -2,11 +2,12 @@
 
 To run this software clone this repository by using git clone *https://github.com/djgupta820/hotel-management.git* command.
 
-Now go to cmd (Command Prompt) and compile all the classes by using javac *.java or javac <filename>.java(this is for indvidual compilation of all classes).
+Now go to cmd (Command Prompt) and compile all the classes by using javac \*.java or javac <filename>.java(this is for indvidual compilation of all classes).
 
 Now run login class by using java login.java command and login screen will appear on the screen.
 
 ### IMPORTANT
+
 This software is created using java 15 and mysql server 8.
 
 In order to run this software you need to create database named hotelmanagement or create your database and change the db name in java classes.
@@ -230,6 +231,7 @@ In order to run this software you need to create database named hotelmanagement 
   </table>
 
 ### The below table is description of guests table
+
   <table> 
     <thead> 
       <tr> 
@@ -407,6 +409,7 @@ In order to run this software you need to create database named hotelmanagement 
   </table>
 
 ### The below table is description of users table
+
   <table> 
     <thead> 
       <tr> 
@@ -432,6 +435,6 @@ In order to run this software you need to create database named hotelmanagement 
     </tbody>
  </table>
 
-In order to run this software you need to create these tables in mysql 
-hotelmanagement database(Created by you only) or create your own database 
+In order to run this software you need to create these tables in mysql
+hotelmanagement database(Created by you only) or create your own database
 and tables and change the db name and tables name in the java classes (try catch block).
