@@ -13,13 +13,12 @@ This software is created using java 15 and mysql server 8.
 In order to run this software you need to create database named hotelmanagement or create your database and change the db name in java classes.
 
 ### The below table is the description of availabel_rooms table
-|--------------|----------|------|-----|---------|-------|
 | Field        | Type     | Null | Key | Default | Extra |
 |--------------|----------|------|-----|---------|-------|
 | Room_number  | int      | YES  |     | NULL    |       |
 | Room_type    | char(10) | YES  |     | NULL    |       |
 | Cost_of_room | double   | YES  |     | NULL    |       |
-|--------------|----------|------|-----|---------|-------|
+
 
 ### The below table is the description of check_in table
 +--------------------+-------------+------+-----+---------+-------+
