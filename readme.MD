@@ -21,9 +21,8 @@ In order to run this software you need to create database named hotelmanagement 
 
 
 ### The below table is the description of check_in table
-+--------------------+-------------+------+-----+---------+-------+
 | Field              | Type        | Null | Key | Default | Extra |
-+--------------------+-------------+------+-----+---------+-------+
+|--------------------|-------------|------|-----|---------|-------|
 | first_name         | char(20)    | YES  |     | NULL    |       |
 | Middle_name        | char(20)    | YES  |     | NULL    |       |
 | Last_name          | char(20)    | YES  |     | NULL    |       |
@@ -44,12 +43,11 @@ In order to run this software you need to create database named hotelmanagement 
 | Total_payment      | double      | YES  |     | NULL    |       |
 | room_number        | int         | NO   | PRI | NULL    |       |
 | check_in_dateTime  | char(20)    | NO   |     | NULL    |       |
-+--------------------+-------------+------+-----+---------+-------+
+
 
 ### The below table is description of guests table
-+--------------------+-------------+------+-----+---------+-------+
 | Field              | Type        | Null | Key | Default | Extra |
-+--------------------+-------------+------+-----+---------+-------+
+|--------------------|-------------|------|-----|---------|-------|
 | first_name         | char(20)    | YES  |     | NULL    |       |
 | middle_name        | char(20)    | YES  |     | NULL    |       |
 | last_name          | char(20)    | YES  |     | NULL    |       |
@@ -70,13 +68,12 @@ In order to run this software you need to create database named hotelmanagement 
 | Total_Payment      | double      | YES  |     | NULL    |       |
 | Room_Number        | int         | NO   | PRI | NULL    |       |
 | check_in_dateTime  | char(20)    | NO   |     | NULL    |       |
-+--------------------+-------------+------+-----+---------+-------+
+
 
 ### The below table is description of users table
 The below table is description of users table
-+-------------------+-------------+------+-----+---------+-------+
 | Field             | Type        | Null | Key | Default | Extra |
-+-------------------+-------------+------+-----+---------+-------+
+|-------------------|-------------|------|-----|---------|-------|
 | first_name        | char(20)    | YES  |     | NULL    |       |
 | Last_Name         | char(20)    | YES  |     | NULL    |       |
 | phone_number      | char(10)    | YES  |     | NULL    |       |
@@ -85,7 +82,7 @@ The below table is description of users table
 | work_phone_number | char(10)    | YES  |     | NULL    |       |
 | Username          | varchar(20) | YES  |     | NULL    |       |
 | Password          | varchar(20) | YES  |     | NULL    |       |
-+-------------------+-------------+------+-----+---------+-------+
+
 
 In order to run this software you need to create these tables in mysql
 hotelmanagement database(Created by you only) or create your own database
