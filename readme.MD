@@ -71,7 +71,6 @@ In order to run this software you need to create database named hotelmanagement 
 
 
 ### The below table is description of users table
-The below table is description of users table
 | Field             | Type        | Null | Key | Default | Extra |
 |-------------------|-------------|------|-----|---------|-------|
 | first_name        | char(20)    | YES  |     | NULL    |       |
